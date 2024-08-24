@@ -1,0 +1,36 @@
+.success-main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container-success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 32px;
+}
+.success-title{
+    font-size: 48px;
+    color: #3ff954;
+}
+.container-success p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.success-button{
+    padding: 12px 24px;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: backgound-color 0.3s ease;
+}
+.success-button:hover{
+    background-color: #014ea6;
+}
